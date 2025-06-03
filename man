@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dulces y Chamoy</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header>
+    <h1>🍬 Dulces & Chamoy 🍏</h1>
+    <p>¡Delicias que alegran tus eventos!</p>
+  </header>
+
+  <section class="hero">
+    <h2>Mesas de Dulces para tus eventos</h2>
+    <p>Manzanas con chamoy, gomitas, paquetes personalizados y más</p>
+  </section>
+
+  <section class="paquetes">
+    <h3>Paquetes disponibles</h3>
+    <ul>
+      <li>🎉 Paquete Fiesta - Ideal para 10 personas</li>
+      <li>🎁 Paquete Premium - Para 20 personas con mesa decorada</li>
+      <li>🍭 Paquete Deluxe - Servicio completo hasta 40 personas</li>
+    </ul>
+  </section>
+
+  <section class="contacto">
+    <h3>Contáctanos</h3>
+    <div class="botones">
+      <a href="https://wa.me/5211234567890" class="btn whatsapp" target="_blank">WhatsApp</a>
+      <a href="mailto:contacto@dulcesychamoy.com" class="btn email" target="_blank">Correo</a>
+      <a href="https://www.facebook.com/dulcesychamoy" class="btn facebook" target="_blank">Facebook</a>
+    </div>
+  </section>
+
+  <section class="reserva">
+    <h3>Haz tu reservación</h3>
+    <form action="mailto:contacto@dulcesychamoy.com" method="POST" enctype="text/plain">
+      <input type="text" name="nombre" placeholder="Tu nombre" required/>
+      <input type="email" name="email" placeholder="Tu correo" required/>
+      <input type="text" name="paquete" placeholder="Paquete que te interesa" required/>
+      <textarea name="mensaje" placeholder="Detalles adicionales..."></textarea>
+      <button type="submit">Enviar reservación</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Dulces & Chamoy. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
